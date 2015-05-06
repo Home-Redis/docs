@@ -49,6 +49,7 @@
 * `$ sudo cp modules/redis.so /usr/lib/php5/<date>`
 * `sudo echo extension=redis.so > /etc/php5/conf.d/redis.ini`: Теперь необходимо добавить модуль в конфиг php для Ubuntu
 * `перезапустить веб сервер`: sudo /etc/init.d/apache2 restart  ||  sudo /etc/init.d/nginx restart
+* `Predis`: [https://github.com/nrk/predis](https://github.com/nrk/predis)
 
 
 [Применение redis в веб-приложениях](http://belyakov.su/praktika-ispolzovaniya-redis)
@@ -69,7 +70,6 @@ Redis - нереляционная высокопроизводительная 
 * `Так для каких же целей можно использовать Redis?`:[ http://eax.me/redis/]( http://eax.me/redis/)
 * `Установка Redis на Windows 7`: [http://webdraft.org/article/set-up-redis-on-windows-7](http://webdraft.org/article/set-up-redis-on-windows-7)
 * `Redis для windows`: [http://zlob.in/2013/01/redis-dlya-windows/](http://zlob.in/2013/01/redis-dlya-windows/)
-* `Predis`: [https://github.com/nrk/predis](https://github.com/nrk/predis)
 * `how to install and run phpize`: [http://stackoverflow.com/questions/3108937/how-to-install-and-run-phpize](http://stackoverflow.com/questions/3108937/how-to-install-and-run-phpize)
 * `How to sucessfully install redis-server, “tclsh8.5 not found” error`: [http://askubuntu.com/questions/58869/how-to-sucessfully-install-redis-server-tclsh8-5-not-found-error](http://askubuntu.com/questions/58869/how-to-sucessfully-install-redis-server-tclsh8-5-not-found-error)
 * `Как установить Redis и Redis php клиент`: [http://anton.logvinenko.name/ru/blog/kak-ustanovit-redis-i-redis-php-klient.html](http://anton.logvinenko.name/ru/blog/kak-ustanovit-redis-i-redis-php-klient.html)
